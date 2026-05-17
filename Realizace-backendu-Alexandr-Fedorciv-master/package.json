@@ -1,0 +1,19 @@
+{
+  "name": "filmcenze-backend",
+  "version": "1.0.0",
+  "description": "Backend pro aplikaci Filmcenze - osobni evidence a recenzovani filmu",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "seed": "node scripts/seed.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexandr Fedorciv",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  }
+}
